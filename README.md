@@ -1,21 +1,14 @@
-# CreatorDisplayKit
+Demo: Creator Portfolio + CMS
 
-CreatorDisplayKit is a clean, minimal portfolio + CMS system designed for creators, photographers, editors, artists and influencers.  
-It allows easy uploading, editing and showcasing of work using a simple Flask-based admin panel.
+1) Create and activate venv:
+   python3 -m venv venv
+   source venv/bin/activate   # Windows: venv\Scripts\activate
 
-## Features
-- Creator login system (email + password)
-- Add / edit / display portfolio items
-- Title, description & media URL support
-- Clean Bootstrap-based UI
-- SQLite database (zero setup)
-- Easily extendable to use PostgreSQL or add file uploads
+2) Install:
+   pip install -r requirements.txt
 
-## Tech Stack
-- Python 3.10+
-- Flask
-- SQLAlchemy (ORM)
-- Flask-WTF (forms + validation)
-- Bootstrap 5 (UI)
-- SQLite (local DB)
+3) Run:
+   python app.py
 
+4) Open http://127.0.0.1:5000
+5) Create creator via: flask create-creator

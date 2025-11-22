@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<h1>Portfolio</h1><div class="row">{% for w in works %}<div class="col-md-4"><div class="card mb-3"><div class="card-body"><h5>{{ w.title }}</h5><p>{{ w.description }}</p></div></div></div>{% endfor %}</div>{% endblock %}
